@@ -241,7 +241,7 @@ ACCELSIM::ACCELSIM(const char *path, enum Rotation rotation) :
 	_accel_reports(nullptr),
 	_mag_reports(nullptr),
 	_accel_scale{},
-	_accel_range_m_s2(0.0f),
+	_accel_range_m_s2(1.0f),
 	_accel_range_scale(0.0f),
 	_accel_samplerate(0),
 	_accel_onchip_filter_bandwith(0),
